@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 8.36 s <<< FAILURE! - in TestSuite
-testCases.TC_001_AccountRegistrationTest.testaccresgitration  Time elapsed: 2.769 s  <<< FAILURE!
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 15.321 s <<< FAILURE! - in TestSuite
+testCases.TC_001_AccountRegistrationTest.testaccresgitration  Time elapsed: 3.444 s  <<< FAILURE!
 java.lang.AssertionError: null
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.fail(Assert.java:115)

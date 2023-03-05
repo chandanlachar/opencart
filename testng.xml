@@ -10,7 +10,9 @@
   <test name="Testopencartchrome">
   <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC_001_AccountRegistrationTest"/>
+    <!--   <class name="testCases.TC_001_AccountRegistrationTest"/>  --> 
+      <class name="testCases.TC_002_Login"/>
+      
     </classes>
   </test> 
 </suite> 

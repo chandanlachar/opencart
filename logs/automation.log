@@ -208,3 +208,50 @@
 13:35:08.663 [main] INFO  testCases.TC_001_AccountRegistrationTest - set last name
 13:35:08.861 [main] INFO  testCases.TC_001_AccountRegistrationTest - setting gmail
 13:35:08.978 [main] INFO  testCases.TC_001_AccountRegistrationTest - setting password
+15:54:41.412 [main] INFO  testCases.TC_001_AccountRegistrationTest - Click on myaccount in home page
+15:54:41.592 [main] INFO  testCases.TC_001_AccountRegistrationTest - click on register
+15:54:42.670 [main] INFO  testCases.TC_001_AccountRegistrationTest - Welcome to reg page and set firstname
+15:54:42.881 [main] INFO  testCases.TC_001_AccountRegistrationTest - set last name
+15:54:43.041 [main] INFO  testCases.TC_001_AccountRegistrationTest - setting gmail
+15:54:43.260 [main] INFO  testCases.TC_001_AccountRegistrationTest - setting password
+15:56:10.766 [main] INFO  testCases.TC_001_AccountRegistrationTest - Click on myaccount in home page
+15:56:10.917 [main] INFO  testCases.TC_001_AccountRegistrationTest - click on register
+15:56:11.651 [main] INFO  testCases.TC_001_AccountRegistrationTest - Welcome to reg page and set firstname
+15:56:11.792 [main] INFO  testCases.TC_001_AccountRegistrationTest - set last name
+15:56:11.927 [main] INFO  testCases.TC_001_AccountRegistrationTest - setting gmail
+15:56:12.118 [main] INFO  testCases.TC_001_AccountRegistrationTest - setting password
+16:07:07.801 [main] INFO  testCases.TC_001_AccountRegistrationTest - Click on myaccount in home page
+16:07:08.016 [main] INFO  testCases.TC_001_AccountRegistrationTest - Click on myaccount in home page
+16:07:08.197 [main] INFO  testCases.TC_001_AccountRegistrationTest - click on register
+16:07:08.402 [main] INFO  testCases.TC_001_AccountRegistrationTest - click on register
+16:07:09.151 [main] INFO  testCases.TC_001_AccountRegistrationTest - Welcome to reg page and set firstname
+16:07:09.654 [main] INFO  testCases.TC_001_AccountRegistrationTest - Welcome to reg page and set firstname
+16:07:09.763 [main] INFO  testCases.TC_001_AccountRegistrationTest - set last name
+16:07:10.018 [main] INFO  testCases.TC_001_AccountRegistrationTest - setting gmail
+16:07:10.171 [main] INFO  testCases.TC_001_AccountRegistrationTest - set last name
+16:07:10.384 [main] INFO  testCases.TC_001_AccountRegistrationTest - setting password
+16:07:10.465 [main] INFO  testCases.TC_001_AccountRegistrationTest - setting gmail
+16:07:10.677 [main] INFO  testCases.TC_001_AccountRegistrationTest - setting password
+16:07:11.330 [main] INFO  testCases.TC_001_AccountRegistrationTest - validating expected message
+16:07:44.416 [main] INFO  testCases.TC_001_AccountRegistrationTest - Click on myaccount in home page
+16:07:44.560 [main] INFO  testCases.TC_001_AccountRegistrationTest - click on register
+16:07:45.204 [main] INFO  testCases.TC_001_AccountRegistrationTest - Welcome to reg page and set firstname
+16:07:45.401 [main] INFO  testCases.TC_001_AccountRegistrationTest - set last name
+16:07:45.515 [main] INFO  testCases.TC_001_AccountRegistrationTest - setting gmail
+16:07:45.713 [main] INFO  testCases.TC_001_AccountRegistrationTest - setting password
+01:22:09.958 [main] INFO  testCases.TC_001_AccountRegistrationTest - Click on myaccount in home page
+01:22:10.125 [main] INFO  testCases.TC_001_AccountRegistrationTest - click on register
+01:22:10.898 [main] INFO  testCases.TC_001_AccountRegistrationTest - Welcome to reg page and set firstname
+01:22:11.072 [main] INFO  testCases.TC_001_AccountRegistrationTest - set last name
+01:22:11.252 [main] INFO  testCases.TC_001_AccountRegistrationTest - setting gmail
+01:22:11.486 [main] INFO  testCases.TC_001_AccountRegistrationTest - setting password
+02:46:48.430 [main] INFO  testCases.TC_002_Login - Begining of login
+02:46:48.627 [main] INFO  testCases.TC_002_Login - clicked on my account
+02:46:49.131 [main] INFO  testCases.TC_002_Login - clicked on login
+02:46:49.338 [main] INFO  testCases.TC_002_Login - email is set
+02:46:49.536 [main] INFO  testCases.TC_002_Login - password is set
+02:47:13.498 [main] INFO  testCases.TC_002_Login - Begining of login
+02:47:13.673 [main] INFO  testCases.TC_002_Login - clicked on my account
+02:47:14.149 [main] INFO  testCases.TC_002_Login - clicked on login
+02:47:14.353 [main] INFO  testCases.TC_002_Login - email is set
+02:47:14.496 [main] INFO  testCases.TC_002_Login - password is set
