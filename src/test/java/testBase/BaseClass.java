@@ -26,7 +26,7 @@ public class BaseClass {
 	public Logger logger;
 	public ResourceBundle rb;
 	@Parameters({"browser"})
-	@BeforeClass
+	@BeforeClass(groups= {"sanity","regression","master"})
 	public void setup(String br) {
 		
 		//loading config file
@@ -53,7 +53,7 @@ public class BaseClass {
 	
 	}
 	
-	@AfterClass
+	@AfterClass(groups= {"sanity","regression","master"})
 	public void teardown() {
 		driver.close();
 	}

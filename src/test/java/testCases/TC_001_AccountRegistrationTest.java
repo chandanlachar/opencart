@@ -10,7 +10,7 @@ import pageObject.RegistrationPage;
 import testBase.BaseClass;
 
 public class TC_001_AccountRegistrationTest extends BaseClass{
-	@Test
+	@Test(groups= {"regression","master"})
 	public void testaccresgitration() {
 		try {
 		 HomePage h=new HomePage(driver);

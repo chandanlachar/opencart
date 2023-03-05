@@ -103,7 +103,7 @@
                     <div class="method-list-content failed suite-Suiteopencart">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suiteopencart" title="testCases.TC_002_Login" class="method navigator-link" hash-for-method="Login">Login</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suiteopencart" title="testCases.TC_003_LoginDataDrivenTest" class="method navigator-link" hash-for-method="test_LoginDDT">test_LoginDDT</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Suiteopencart -->
@@ -121,18 +121,21 @@
           <div class="suite-Suiteopencart-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">testCases.TC_002_Login</span>
+              <span class="class-name">testCases.TC_003_LoginDataDrivenTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="Login">
-                  </a> <!-- Login -->
-                  <span class="method-name">Login</span>
-                  <div class="stack-trace">java.lang.AssertionError: null
-	at testCases.TC_002_Login.Login(TC_002_Login.java:39)
+                  <a name="test_LoginDDT">
+                  </a> <!-- test_LoginDDT -->
+                  <span class="method-name">test_LoginDDT</span>
+                  <div class="stack-trace">org.testng.internal.reflect.MethodMatcherException: 
+[public void testCases.TC_003_LoginDataDrivenTest.test_LoginDDT(java.lang.String,java.lang.String,java.lang.String)] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: test_LoginDDT([java.lang.String arg0, java.lang.String arg1, java.lang.String arg2])
+Arguments: [(java.lang.String) pavanoltraining@gmail.com,(java.lang.String) test@123,(java.lang.String) valid,(java.lang.String) ]
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 29 stack frames
+... Removed 22 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -154,7 +157,7 @@
   &lt;test thread-count=&quot;5&quot; name=&quot;Testopencartchrome&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testCases.TC_002_Login&quot;/&gt;
+      &lt;class name=&quot;testCases.TC_003_LoginDataDrivenTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Testopencartchrome --&gt;
 &lt;/suite&gt; &lt;!-- Suiteopencart --&gt;
@@ -196,14 +199,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'Login')
-data.setCell(0, 2, 'testCases.TC_002_Login')
-data.setCell(0, 3, 6052);
+data.setCell(0, 1, 'test_LoginDDT')
+data.setCell(0, 2, 'testCases.TC_003_LoginDataDrivenTest')
+data.setCell(0, 3, 1585);
 window.suiteTableData['Suiteopencart']= { tableData: data, tableDiv: 'times-div-Suiteopencart'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <span class="suite-total-time">Total running time: 1 seconds</span>
               <div id="times-div-Suiteopencart">
               </div> <!-- times-div-Suiteopencart -->
             </div> <!-- times-div -->
@@ -229,20 +232,14 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testCases.TC_002_Login</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testCases.TC_003_LoginDataDrivenTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">Login</span>
-                <span class="method-start">5905 ms</span>
-              </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">12250 ms</span>
+                <span class="method-start">6785 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

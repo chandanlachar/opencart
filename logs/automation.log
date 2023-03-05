@@ -255,3 +255,13 @@
 02:47:14.149 [main] INFO  testCases.TC_002_Login - clicked on login
 02:47:14.353 [main] INFO  testCases.TC_002_Login - email is set
 02:47:14.496 [main] INFO  testCases.TC_002_Login - password is set
+01:33:42.046 [main] INFO  testCases.TC_002_Login - Begining of login
+01:33:42.198 [main] INFO  testCases.TC_002_Login - clicked on my account
+01:33:42.626 [main] INFO  testCases.TC_002_Login - clicked on login
+01:33:42.789 [main] INFO  testCases.TC_002_Login - email is set
+01:33:42.900 [main] INFO  testCases.TC_002_Login - password is set
+02:06:48.878 [main] INFO  testCases.TC_002_Login - Begining of login
+02:06:49.024 [main] INFO  testCases.TC_002_Login - clicked on my account
+02:06:49.495 [main] INFO  testCases.TC_002_Login - clicked on login
+02:06:49.819 [main] INFO  testCases.TC_002_Login - email is set
+02:06:49.933 [main] INFO  testCases.TC_002_Login - password is set
