@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-06T01:34:27 IST" name="Suiteopencart" finished-at="2023-03-06T01:34:34 IST" duration-ms="7505">
+  <suite started-at="2023-03-06T12:25:50 IST" name="Suiteopencart" finished-at="2023-03-06T12:25:59 IST" duration-ms="8980">
     <groups>
     </groups>
-    <test started-at="2023-03-06T01:34:27 IST" name="Testopencartchrome" finished-at="2023-03-06T01:34:34 IST" duration-ms="7505">
+    <test started-at="2023-03-06T12:25:50 IST" name="Testopencartchrome" finished-at="2023-03-06T12:25:59 IST" duration-ms="8980">
       <class name="testCases.TC_003_LoginDataDrivenTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_003_LoginDataDrivenTest@6150c3ec]" started-at="2023-03-06T01:34:27 IST" name="setup" finished-at="2023-03-06T01:34:32 IST" duration-ms="4795" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_003_LoginDataDrivenTest@6150c3ec]" started-at="2023-03-06T12:25:51 IST" name="setup" finished-at="2023-03-06T12:25:58 IST" duration-ms="6873" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,25 +18,20 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDataDrivenTest@6150c3ec]" started-at="2023-03-06T01:34:32 IST" name="test_LoginDDT" data-provider="LoginData" finished-at="2023-03-06T01:34:34 IST" duration-ms="1585" status="FAIL">
-          <exception class="org.testng.internal.reflect.MethodMatcherException">
+        <test-method signature="test_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDataDrivenTest@6150c3ec]" started-at="2023-03-06T12:25:58 IST" name="test_LoginDDT" data-provider="LoginData" finished-at="2023-03-06T12:25:58 IST" duration-ms="0" status="FAIL">
+          <exception class="java.lang.RuntimeException">
             <message>
-              <![CDATA[
-[public void testCases.TC_003_LoginDataDrivenTest.test_LoginDDT(java.lang.String,java.lang.String,java.lang.String)] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
-Data provider mismatch
-Method: test_LoginDDT([java.lang.String arg0, java.lang.String arg1, java.lang.String arg2])
-Arguments: [(java.lang.String) pavanoltraining@gmail.com,(java.lang.String) test@123,(java.lang.String) valid,(java.lang.String) ]]]>
+              <![CDATA[java.io.FileNotFoundException: OpenCart\testData\opencart.xlsx (The system cannot find the path specified)]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.testng.internal.reflect.MethodMatcherException: 
-[public void testCases.TC_003_LoginDataDrivenTest.test_LoginDDT(java.lang.String,java.lang.String,java.lang.String)] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
-Data provider mismatch
-Method: test_LoginDDT([java.lang.String arg0, java.lang.String arg1, java.lang.String arg2])
-Arguments: [(java.lang.String) pavanoltraining@gmail.com,(java.lang.String) test@123,(java.lang.String) valid,(java.lang.String) ]
-at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:46)
-at org.testng.internal.Parameters.injectParameters(Parameters.java:909)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:37)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+              <![CDATA[java.lang.RuntimeException: java.io.FileNotFoundException: OpenCart\testData\opencart.xlsx (The system cannot find the path specified)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:57)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:157)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:803)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:728)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:924)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
@@ -56,13 +51,28 @@ at org.testng.TestNG.run(TestNG.java:1067)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.io.FileNotFoundException: OpenCart\testData\opencart.xlsx (The system cannot find the path specified)
+at java.base/java.io.FileInputStream.open0(Native Method)
+at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
+at utilities.ExcelUtility.getRowCount(ExcelUtility.java:37)
+at utilities.DataProviders.getData(DataProviders.java:17)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:53)
+... 25 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.testng.internal.reflect.MethodMatcherException -->
+          </exception> <!-- java.lang.RuntimeException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_LoginDDT -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_003_LoginDataDrivenTest@6150c3ec]" started-at="2023-03-06T01:34:34 IST" name="teardown" finished-at="2023-03-06T01:34:34 IST" duration-ms="155" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_003_LoginDataDrivenTest@6150c3ec]" started-at="2023-03-06T12:25:59 IST" name="teardown" finished-at="2023-03-06T12:25:59 IST" duration-ms="305" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

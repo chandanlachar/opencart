@@ -10,7 +10,7 @@ public class DataProviders {
 		@DataProvider(name="LoginData")
 		public String [][] getData() throws IOException
 		{
-			String path=".\\testData\\opencart.xlsx";//taking xl file from testData
+			String path="OpenCart\\testData\\opencart.xlsx";//taking xl file from testData
 			
 			ExcelUtility xlutil=new ExcelUtility(path);//creating an object for XLUtility
 			
